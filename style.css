@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/*CSS developed by Graham O'Mahony*/
+/*Copyright 2019*/
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: 'Arial', sans-serif;
+}
+header
+{
+	padding: 12px;
+	min-height: 100px;
+	background: #eee;
+}
+section
+{
+	padding: 12px;
+}
+h1, h2
+{
+	margin: 10px 0;
+}
+p
+{
+	font-size: 11pt;
+	color: #444;
+}
+input
+{
+	color: #545454;
+	font-size: 13pt;
+	text-transform: initial;
+	padding: 11.5px 12px;
+	border-radius: 3px;
+	box-shadow: none;
+	outline: 0;
+	width: 300px;
+	margin: 6px 0;
+}
+input:focus
+{
+	border: 1px solid #444;
+}
+input:valid
+{
+	border: 1px solid #2196f3;
+}
+.result
+{
+	padding: 11.5px 12px;
+}
+button
+{
+	color: #fff;
+	float: left;
+	cursor: pointer;
+	border: 1px solid #fff;
+	outline: 0;
+	font-size: 15pt;
+	font-weight: bold;
+	display: inline-block;
+	padding: 12px 18px;
+	border-radius: 8px;
+	background: #2196f3;
+	transition: all 0.2s cubic-bezier(.61,.51,.68,.19);
+}
+button:hover
+{
+	background: #1a78c2;
+}
+.col1
+{
+	width: 100%;
+	float: left;
+}
